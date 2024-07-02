@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style: numeric;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2, .profile p {
+    margin: 5px 0;
+}
+
+.time-info p {
+    margin: 5px 0;
+}
+
+.goal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.goal img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.goal h3 {
+    margin: 0 10px 0 0;
+}
+
+.goal p {
+    margin: 0;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    margin: 10px 0;
+}
+
+.links ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
